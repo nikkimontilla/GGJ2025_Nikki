@@ -1940,7 +1940,7 @@
             "id": "461bce25-7762-40c5-b639-f190649be6d6",
             "actions": [
                 {
-                    "name": "Select",
+                    "name": "Bubble Trigger",
                     "type": "Button",
                     "id": "ac96c10b-c955-4a46-8e67-bf16bc069b53",
                     "expectedControlType": "",
@@ -2056,7 +2056,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Select",
+                    "action": "Bubble Trigger",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -2067,7 +2067,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Select",
+                    "action": "Bubble Trigger",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -2078,7 +2078,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Select",
+                    "action": "Bubble Trigger",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -2089,7 +2089,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Select",
+                    "action": "Bubble Trigger",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -2100,7 +2100,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Select",
+                    "action": "Bubble Trigger",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
