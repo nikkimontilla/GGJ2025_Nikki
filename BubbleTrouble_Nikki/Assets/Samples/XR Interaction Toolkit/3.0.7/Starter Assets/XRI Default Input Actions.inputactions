@@ -1319,7 +1319,16 @@
                     "name": "Grab Move",
                     "type": "Button",
                     "id": "c5a6d766-d487-42ae-b293-da4749469e18",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "e2cfec3b-b466-4edd-9dc2-5aba9235e5ca",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -1372,23 +1381,67 @@
                 },
                 {
                     "name": "",
-                    "id": "9e2fa814-8cbd-4c65-a60d-a1503f30ffd8",
-                    "path": "<XRController>{LeftHand}/{GripButton}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Grab Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "a46b49d0-0754-4dac-a9a5-a822e10751f2",
                     "path": "<XRController>{LeftHand}/{Primary2DAxis}",
                     "interactions": "Sector(directions=12,sweepBehavior=1),Sector(directions=2,sweepBehavior=2)",
                     "processors": "",
                     "groups": "",
                     "action": "Snap Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "69c45fe3-4cc0-4011-93eb-159de4bc8f05",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "959ec93a-2bad-4b3c-8d4e-2163d1e07953",
+                    "path": "<MetaAimHand>{LeftHand}/indexPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7752f817-8d60-4969-be66-a5036a18aa08",
+                    "path": "<HandInteraction>{LeftHand}/graspFirm",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d81b713-3df8-4e1a-b2e8-aabd866f1e43",
+                    "path": "<HandInteraction>{LeftHand}/pinchTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb908b65-68ae-4d32-9fdc-627d64ff049e",
+                    "path": "<DualShock4GampadiOS>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
