@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6321684435518523248}
   - component: {fileID: 5317674054810300825}
   - component: {fileID: 7090602826281444232}
+  - component: {fileID: -4515574963587934324}
   m_Layer: 0
   m_Name: BubbleBullets
   m_TagString: Untagged
@@ -136,3 +137,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &-4515574963587934324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2479383555457190288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe025b6eddb64b49b12b4495b5f0579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetMaterial: {fileID: 2100000, guid: 2577cad5de0447f47b1fd81cc3be320f, type: 2}

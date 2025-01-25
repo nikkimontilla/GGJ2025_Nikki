@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Anchor
-  - Target Object
+  - Mouse
   layers:
   - Default
   - TransparentFX
@@ -17,7 +17,7 @@ TagManager:
   - Muse Animate Handles
   - Muse Animate Thumbnail
   - Muse Animate Environment
-  - Target Layer
+  - 
   - 
   - 
   - 
