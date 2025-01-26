@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class BubbleCollisionManager : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class BubbleCollisionManager : MonoBehaviour
     private bool shouldFloat = false;
     private Transform objectToFloat;
     public float maxHeight = 10f; // Maximum height before destroying
+    private AudioSource mouseSqueak;
 
     void OnTriggerEnter(Collider other)
     {
@@ -37,6 +39,10 @@ public class BubbleCollisionManager : MonoBehaviour
 
             if (objectToFloat.position.y >= maxHeight)
             {
+                if (mouseSqueak != null)
+                {
+                    mouseSqueak.Stop();
+                }
                 Destroy(objectToFloat.gameObject);
                 shouldFloat = false;
             }
