@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class BubbleCodeCollector : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public AudioSource collectionSound;
+    public GameObject parent; // Assign parent object to destroy
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("Player") || other.name.Contains("XR Origin"))
+        {
+            if (collectionSound && collectionSound.clip)
+            {
+                AudioSource.PlayClipAtPoint(collectionSound.clip, transform.position);
+            }
+            Destroy(parent ? parent : gameObject);
+        }
     }
 }
